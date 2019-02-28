@@ -1,5 +1,8 @@
 # MeanSum: A Model for Unsupervised Neural Multi-Document Abstractive Summarization
 
+Corresponding paper: [https://arxiv.org/pdf/1810.05739.pdf](https://arxiv.org/pdf/1810.05739.pdf)
+
+
 ## Requirements
 
 Main requirements:
