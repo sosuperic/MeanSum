@@ -1,0 +1,12 @@
+matplotlib==2.0.0
+nltk==3.2.2
+scipy==0.18.1
+gensim==3.4.0
+numpy==1.15.4
+six==1.11.0
+prettytable==0.7.2
+scikit_learn==0.19.2
+tensorboardX==1.2
+tensorflow==1.12.0
+torch==0.4.0
+Unidecode==1.0.22
