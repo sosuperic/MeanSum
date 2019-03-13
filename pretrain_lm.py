@@ -15,7 +15,7 @@ from torch import optim
 from data_loaders.summ_dataset_factory import SummDatasetFactory
 from models.custom_parallel import DataParallelModel, DataParallelCriterion
 from models.mlstm import StackedLSTM, mLSTM, StackedLSTMEncoder
-from models.nn_utils import move_to_cuda, setup_gpus, OptWrapper, calc_grad_norm, save_model
+from models.nn_utils import move_to_cuda, setup_gpus, OptWrapper, calc_grad_norm, save_model, Batch
 from project_settings import SAVED_MODELS_DIR, HParams, EDOC_ID, PAD_ID
 from utils import save_run_data, create_argparse_and_update_hp, update_moving_avg
 
