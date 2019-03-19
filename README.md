@@ -74,6 +74,8 @@ reference summary written by the Mechanical Turk worker.
 
 Testing with pretrained mode. This will output and save the automated metrics. 
 Results will be in ```outputs/eval/yelp/n_docs_8/unsup_<run_name>```
+
+NOTE: Unlike some conventions, 'gpus' option here represents the GPU ID (the one which is visible) and NOT the number of GPUs. Hence, for a machine with a single GPU, you will give gpus=0
 ```
 python train_sum.py --mode=test --gpus=0 --batch_size=16 --notes=<run_name>
 ```
